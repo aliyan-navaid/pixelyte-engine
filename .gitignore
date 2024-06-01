@@ -1,0 +1,7 @@
+# Ignore files genereated by Visual Studio
+
+x64/
+external/
+pixelyte-engine.vcxproj.user
+pixelyte-engine.vcxproj.filters
+pixelyte-engine.vcxproj
