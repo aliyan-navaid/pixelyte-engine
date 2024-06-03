@@ -4,7 +4,9 @@
 #include <memory>
 
 #include "Core/SceneManager.h"
+#include "Entity.h"
 #include "testScene.h"
+#include "flashScene.h"
 
 class Game {
 public:
@@ -24,7 +26,7 @@ private:
 	sf::Clock clock_;
 	sf::Time dt_;
 
-	Core::SceneManager scenes_;
+	std::shared_ptr<Core::SceneManager> scenes_;
 
 	bool running_;
 };

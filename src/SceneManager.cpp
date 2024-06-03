@@ -1,4 +1,5 @@
 #include "Core/SceneManager.h"
+#include "iostream"
 
 Core::SceneManager::SceneManager()
 {
